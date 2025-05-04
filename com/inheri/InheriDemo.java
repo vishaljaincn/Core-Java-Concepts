@@ -9,12 +9,13 @@ public class InheriDemo
 		System.out.println("Speed is "+mountainBike.speed);
 		System.out.println("Gear is "+ mountainBike.gear);
 		System.out.println("Seat height is "+mountainBike.seatheight);
-		mountainBike.applyBreak(1);
+		//mountainBike.applyBreak(1);
 		System.out.println(mountainBike.speed);
 		mountainBike.riseHeight(1);
 		System.out.println(mountainBike.seatheight);
 		
-		
+		Bicycle bicycle=new Bicycle(7,7);
+
 		
 
 	}
